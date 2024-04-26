@@ -1,12 +1,10 @@
 html {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 1440px;
-  margin: 45px 45px 0px 45px;
   font-family: "Montserrat", sans-serif;
   body {
     margin: 0;
+    #root {
+      max-width: 1240px;
+      margin: auto;
+    }
   }
 }

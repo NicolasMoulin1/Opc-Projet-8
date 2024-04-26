@@ -1,0 +1,21 @@
+.title {
+    position: relative;
+    .svg-inline--fa.fa-angle-down {
+      transition: transform 0.3s ease-in-out; 
+      position: absolute;
+      top: 5px;
+      right: 20px;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .icon.rotate {
+    transform: rotate(180deg);
+  }
+.content.open {
+  max-height: 100px;
+  opacity: 1;
+  transform: translateY(0%);
+}
+  

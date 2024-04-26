@@ -1,6 +1,6 @@
 [
 	{
-		"identifiant": "c67ab8a7",
+		"id": "c67ab8a7",
 		"title": "Appartement cosy",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"des photos": [
@@ -12,25 +12,25 @@
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous retrouverez chez vous dans notre appartement.",
 		"hôte": {
-			"nom": "Nathalie Jean",
+			"name": "Nathalie Jean",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"note": "5",
 		"location": "Île de France - Paris 17e",
-		"équipements": [
+		"equipements": [
 			"Équipements de base",
 			"Micro-ondes",
 			"Douche italienne",
 			"Frigo",
 			"WIFI"
 		],
-		"Mots clés": [
+		"tags": [
 			"Batignolle",
 			"Montmartre"
 		]
 	},
 	{
-		"identifiant": "b9123946",
+		"id": "b9123946",
 		"title": "Magnifique appartement proche Canal Saint Martin",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"des photos": [
@@ -48,7 +48,7 @@
 		},
 		"note": "4",
 		"location": "Île de France - Paris 10e",
-		"équipements": [
+		"equipements": [
 			"Parking",
 			"Sèche Cheveux",
 			"Machine à laver",
@@ -56,14 +56,14 @@
 			"Cuisine équipée",
 			"Télévision"
 		],
-		"Mots clés": [
+		"tags": [
 			"Canal Saint Martin",
 			"République",
 			"Appartement"
 		]
 	},
 	{
-		"identifiant": "46d188c5",
+		"id": "46d188c5",
 		"title": "Studio de charme - Buttes Chaumont",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"des photos": [
@@ -74,25 +74,25 @@
 		],
 		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
 		"hôte": {
-			"nom": "Franck Maher",
+			"name": "Franck Maher",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"note": "3",
 		"location": "Île de France - Paris 20e",
-		"équipements": [
+		"equipements": [
 			"Wifi",
 			"Cuisine équipée",
 			"Télévision",
 			"Sèche Cheveux"
 		],
-		"Mots clés": [
+		"tags": [
 			"Buttes Chaumont",
 			"Laumière",
 			"Studio"
 		]
 	},
 	{
-		"identifiant": "7af00cd6",
+		"id": "7af00cd6",
 		"title": "Nid douillet au coeur du 11ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
 		"des photos": [
@@ -108,14 +108,14 @@
 		},
 		"note": "3",
 		"location": "Île de France - Paris 11e",
-		"équipements": [
+		"equipements": [
 			"Micro-ondes",
 			"Wifi",
 			"Chambre Séparée",
 			"Climatisation",
 			"Télévision"
 		],
-		"Mots clés": [
+		"tags": [
 			"Parmentier",
 			"Marais",
 			"Parc",
@@ -123,7 +123,7 @@
 		]
 	},
 	{
-		"identifiant": "0979876d",
+		"id": "0979876d",
 		"title": "Appartement de Standing - 10e",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
 		"des photos": [
@@ -136,25 +136,25 @@
 		],
 		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
 		"hôte": {
-			"nom": "Franck Maher",
+			"name": "Franck Maher",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"note": "5",
 		"location": "Île de France - Paris 10e",
-		"équipements": [
+		"equipements": [
 			"Frigo Américain",
 			"Sèche Cheveux",
 			"Wifi",
 			"Chambre Séparée",
 			"Parking"
 		],
-		"Mots clés": [
+		"tags": [
 			"Goncourt",
 			"Proche commerces"
 		]
 	},
 	{
-		"identifiant": "f72a452f",
+		"id": "f72a452f",
 		"title": "Studio d'artiste",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
 		"des photos": [
@@ -171,18 +171,18 @@
 		},
 		"note": "5",
 		"location": "Île de France - Paris 18e",
-		"équipements": [
+		"equipements": [
 			"Chambre Séparée",
 			"Parking"
 		],
-		"Mots clés": [
+		"tags": [
 			"Montmartre",
 			"Culture",
 			"Charme"
 		]
 	},
 	{
-		"identifiant": "b4c67936",
+		"id": "b4c67936",
 		"title": "Pas cher - Studio 18ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
 		"des photos": [
@@ -193,12 +193,12 @@
 		],
 		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accédez très rapidement à tous les points touristiques de Paris.",
 		"hôte": {
-			"nom": "Hugo Perrier",
+			"name": "Hugo Perrier",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"note": "3",
 		"location": "Île de France - Paris 18e",
-		"équipements": [
+		"equipements": [
 			"Salle de bains",
 			"Frigo",
 			"Wifi",
@@ -206,14 +206,14 @@
 			"Bureau",
 			"Parking"
 		],
-		"Mots clés": [
+		"tags": [
 			"Les transports",
 			"Bon marché",
 			"18ème"
 		]
 	},
 	{
-		"identifiant": "bc6f7112",
+		"id": "bc6f7112",
 		"title": "Superbe appartement proche Tour Eiffel",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
 		"des photos": [
@@ -231,7 +231,7 @@
 		},
 		"note": "5",
 		"location": "Île de France - Paris 6e",
-		"équipements": [
+		"equipements": [
 			"Wifi",
 			"Sèche Cheveux",
 			"Machine à laver",
@@ -239,7 +239,7 @@
 			"Lit King Size",
 			"Ascenseur"
 		],
-		"Mots clés": [
+		"tags": [
 			"Luxe",
 			"Tour Eiffel",
 			"T3",
@@ -247,7 +247,7 @@
 		]
 	},
 	{
-		"identifiant": "cb2f9222",
+		"id": "cb2f9222",
 		"title": "Suite familiale",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
 		"des photos": [
@@ -259,26 +259,26 @@
 		],
 		"description": "Paris vous tendez les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces à seulement quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
 		"hôte": {
-			"nom": "Adrien Chiran",
+			"name": "Adrien Chiran",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"note": "4",
 		"location": "Île de France - Paris 14e",
-		"équipements": [
+		"equipements": [
 			"Climatisation",
 			"Machine à laver",
 			"Sèche Cheveux",
 			"Wifi",
 			"Parking"
 		],
-		"Mots clés": [
+		"tags": [
 			"Montparnasse",
 			"Commerces",
 			"Famille"
 		]
 	},
 	{
-		"identifiant": "d60ca600",
+		"id": "d60ca600",
 		"title": "Appartement moderne sur parc",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
 		"des photos": [
@@ -289,12 +289,12 @@
 		],
 		"description": "Respirer en plein coeur de Paris ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux . Notre appartement est également idéalement situé au coeur du 11ème arrondissement. Proche des lignes 3 et 2, vous pourrez découvrir Paris sans effort !",
 		"hôte": {
-			"nom": "Adrien Chiran",
+			"name": "Adrien Chiran",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"note": "3",
 		"location": "Île de France - Paris 11e",
-		"équipements": [
+		"equipements": [
 			"Vue Parc",
 			"Chauffage",
 			"Sèche linge",
@@ -302,7 +302,7 @@
 			"Wifi",
 			"Ascenseur"
 		],
-		"Mots clés": [
+		"tags": [
 			"Père Lachaise",
 			"11e",
 			"Métro 3",
@@ -310,7 +310,7 @@
 		]
 	},
 	{
-		"identifiant": "2cf259e1",
+		"id": "2cf259e1",
 		"title": "Charmant Studio Marais",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
 		"des photos": [
@@ -321,25 +321,25 @@
 		],
 		"description": "Situé en plein coeur du Marais, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine toute équipée est particulièrement pratique.",
 		"hôte": {
-			"nom": "Victor Moran",
+			"name": "Victor Moran",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
 		},
 		"note": "4",
 		"location": "Île de France - Paris 11e",
-		"équipements": [
+		"equipements": [
 			"Clic-clac",
 			"Quatre",
 			"Sèche Cheveux",
 			"Wifi"
 		],
-		"Mots clés": [
+		"tags": [
 			"Marais",
 			"Studio",
 			"Parc"
 		]
 	},
 	{
-		"identifiant": "5323c29b",
+		"id": "5323c29b",
 		"title": "Studio fonctionnel République",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
 		"des photos": [
@@ -350,12 +350,12 @@
 		],
 		"description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
 		"hôte": {
-			"nom": "Sarah Devit",
+			"name": "Sarah Devit",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"note": "3",
 		"location": "Île de France - Paris 3e",
-		"équipements": [
+		"equipements": [
 			"Rangements",
 			"Allumé",
 			"Sèche Cheveux",
@@ -363,7 +363,7 @@
 			"LA TÉLÉ",
 			"Bouilloire"
 		],
-		"Mots clés": [
+		"tags": [
 			"Marais",
 			"République",
 			"Studio",
@@ -372,7 +372,7 @@
 		]
 	},
 	{
-		"identifiant": "af6d2d48",
+		"id": "af6d2d48",
 		"title": "Bungalow dans la forêt",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
 		"des photos": [
@@ -384,26 +384,26 @@
 		],
 		"description": "Quittez Paris pour vous mettre au vert. À seulement 30 minutes de la Gare du Nord, venez découvrir la forêt d'Ecouen directement depuis la fenêtre de votre bungalow. Entièrement équipé, ce logement vous accueillera dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenêtres, et profitez du chant des oiseaux.",
 		"hôte": {
-			"nom": "Sarah Devit",
+			"name": "Sarah Devit",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"note": "5",
 		"location": "Ile de France - Ecouen",
-		"équipements": [
+		"equipements": [
 			"SDB",
 			"Cuisine équipée",
 			"Toilettes sèches",
 			"Frigo",
 			"Bouilloire"
 		],
-		"Mots clés": [
+		"tags": [
 			"Forêt",
 			"Nature",
 			"Musée d'Écouen"
 		]
 	},
 	{
-		"identifiant": "7cbb378e",
+		"id": "7cbb378e",
 		"title": "Grande Maison proche banlieue",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-2.jpg",
 		"des photos": [
@@ -415,12 +415,12 @@
 		],
 		"description": "Vous cherchez un endroit pour fêter un anniversaire entre amis tout en restant proche de Paris ? Ne cherchez plus ! Entièrement équipé, cette maison est l'endroit idéal pour se regrouper.",
 		"hôte": {
-			"nom": "Karen Guillet",
+			"name": "Karen Guillet",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
 		},
 		"note": "4",
 		"location": "Île de France - Arnouville",
-		"équipements": [
+		"equipements": [
 			"SDB",
 			"Cuisine équipée",
 			"Frigo",
@@ -430,15 +430,15 @@
 			"Cintres",
 			"Équipements de base"
 		],
-		"Mots clés": [
+		"tags": [
 			"Forêt",
 			"Nature",
 			"Grande maison"
 		]
 	},
 	{
-		"identifiant": "ba55a0cc",
-		"titre": "Maison T5 - Le Vésinet",
+		"id": "ba55a0cc",
+		"title": "Maison T5 - Le Vésinet",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
 		"des photos": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
@@ -449,12 +449,12 @@
 		],
 		"description": "Maison T5. Idéale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
 		"hôte": {
-			"nom": "Karen Guillet",
+			"name": "Karen Guillet",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
 		},
 		"note": "3",
 		"location": "Île de France - Arnouville",
-		"équipements": [
+		"equipements": [
 			"Bouilloire",
 			"SDB",
 			"Cuisine équipée",
@@ -466,14 +466,14 @@
 			"Micro-ondes",
 			"Parking"
 		],
-		"Mots clés": [
+		"tags": [
 			"Nature",
 			"Groupe",
 			"Maison"
 		]
 	},
 	{
-		"identifiant": "1e181317",
+		"id": "1e181317",
 		"title": "Loft de Luxe à la Défense",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
 		"des photos": [
@@ -483,14 +483,14 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg"
 		],
-		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
+		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les equipements pour que vous soyez comme chez vous.",
 		"hôte": {
-			"nom": "Julie Donatella",
+			"name": "Julie Donatella",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"note": "3",
-		"localisation" : "Île de France - La Défense",
-		"équipements": [
+		"location" : "Île de France - La Défense",
+		"equipements": [
 			"Baie vitrée",
 			"Télévision",
 			"Quatre",
@@ -499,14 +499,14 @@
 			"Micro-ondes",
 			"Parking"
 		],
-		"Mots clés": [
+		"tags": [
 			"La Défense",
 			"Grenier",
 			"Luxe"
 		]
 	},
 	{
-		"identifiant": "1e180563",
+		"id": "1e180563",
 		"title": "Charmant apt aux portes de Paris",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
 		"des photos": [
@@ -518,12 +518,12 @@
 		],
 		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
 		"hôte": {
-			"nom": "Julie Donatella",
+			"name": "Julie Donatella",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"note": "4",
 		"location": "Île de France - Levallois",
-		"équipements": [
+		"equipements": [
 			"Télévision",
 			"Quatre",
 			"Frigo",
@@ -531,13 +531,13 @@
 			"Wifi",
 			"Micro-ondes"
 		],
-		"Mots clés": [
+		"tags": [
 			"Vue Parc",
 			"Apt de Charme"
 		]
 	},
 	{
-		"identifiant": "2139a317",
+		"id": "2139a317",
 		"title": "Pas cher - Chambre Paris 20",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg",
 		"des photos": [
@@ -545,23 +545,23 @@
 		],
 		"description": "Cette chambre dispose de toutes les facilités nécessaires. Proche métro et commerces.",
 		"hôte": {
-			"nom": "Hugo Perrier",
+			"name": "Hugo Perrier",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"note": "2",
 		"location": "Île de France - Paris 20e",
-		"équipements": [
+		"equipements": [
 			"Bouilloire",
 			"Wifi",
 			"Micro-ondes"
 		],
-		"Mots clés": [
+		"tags": [
 			"Vue Parc",
 			"Métro"
 		]
 	},
 	{
-		"identifiant": "6ff132c6",
+		"id": "6ff132c6",
 		"title": "Charmant studio",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-1.jpg",
 		"des photos": [
@@ -571,26 +571,26 @@
 		],
 		"description": "Ce studio décoré avec goût sera votre nid douillet après une longue journée passée à découvrir Paris.",
 		"hôte": {
-			"nom": "Michel Romy",
+			"name": "Michel Romy",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
 		},
 		"note": "4",
 		"location": "Île de France - Paris 13e",
-		"équipements": [
+		"equipements": [
 			"Équipements de base",
 			"Quatre",
 			"Frigo",
 			"Wifi",
 			"Micro-ondes"
 		],
-		"Mots clés": [
+		"tags": [
 			"Studio",
 			"Charmante",
 			"13e"
 		]
 	},
 	{
-		"identifiant": "cb02d69b",
+		"id": "cb02d69b",
 		"title": "Magnifique appartement Rivoli",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg",
 		"des photos": [
@@ -598,19 +598,19 @@
 		],
 		"description": "Au coeur du quartier historique du Marais, cet appartement est idéal pour un couple à la découverte de Paris. Situé sur la rue de Rivoli, il est à 5 minutes du Louvre.",
 		"hôte": {
-			"nom": "Nathalie Jean",
+			"name": "Nathalie Jean",
 			"photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"note": "4",
 		"location": "Île de France - Paris 13e",
-		"équipements": [
+		"equipements": [
 			"Wifi",
 			"Équipements de base",
 			"Micro-ondes",
 			"Frigo",
 			"Baignoire"
 		],
-		"Mots clés": [
+		"tags": [
 			"Persienne",
 			"Marais",
 			"Rivoli"

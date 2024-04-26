@@ -1,17 +1,18 @@
 import PropTypes from "prop-types";
+import {Link} from "react-router-dom";
 
 const Thumb = ({gallery}) => {
     return (
-        gallery.map((gallery)=>(
-            <div className="thumb" key={gallery.id}>
-                <img src={gallery.cover} alt={gallery.title} />
-                <h3>{gallery.title}</h3>          
-            </div>
+        gallery.map((housing)=>(
+            <Link to ={`/apartment/${housing.id}`} className="thumb" key={housing.id}>
+                <img src={housing.cover} alt={housing.title} />
+                <h3><span>{housing.title}</span></h3>         
+            </Link>
         ))    
     );
 };
 
-Thumb.PropTypes ={
+Thumb.propTypes ={
     gallery: PropTypes.array.isRequired
 }
 

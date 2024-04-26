@@ -5,7 +5,7 @@ const Home = () => {
     return (
             <div className="home">
                 <div className="banner">
-                <img src="/src/assets/images/montagne.png" alt="image d'une montagne" />
+                <img src="/src/assets/images/Plage.png" alt="image d'une plage" />
                 <h1>Chez vous, partout et ailleurs</h1>
                 </div>
                 <div className="gallery">

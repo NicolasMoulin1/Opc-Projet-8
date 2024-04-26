@@ -1,6 +1,6 @@
-import "../assets/fonts/Montserrat/OFL.txt";
 import logoKasa from "../assets/images/LogoKasa.png";
 import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="header">
