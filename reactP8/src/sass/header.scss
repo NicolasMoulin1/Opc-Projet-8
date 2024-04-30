@@ -5,8 +5,13 @@
     gap: 50px;
     padding-top: 50px;
     nav {
+        display: flex;
+        align-items: center;
         ul{
             display: flex;
+            gap: 60px;
+            padding: 0;
+            margin: 0;
             a {
                 text-decoration: none;
                 color: black;
@@ -16,7 +21,7 @@
                 }
             }
             li {
-                margin: 0 10px;
+               
                 list-style: none;
             }
         }

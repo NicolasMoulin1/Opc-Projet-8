@@ -9,11 +9,7 @@ const Collaps = ({ title, children }) => {
 
   return (
     <div className={title}>
-      <FontAwesomeIcon
-        icon={faAngleDown}
-        onClick={toggleOpen}
-        className={`svg-inline--fa fa-angle-down icon ${open ? 'rotate' : ''}`} // Assurez-vous que ces classes correspondent au CSS
-      />
+      <FontAwesomeIcon icon={faAngleDown} onClick={toggleOpen} className={`svg-inline--fa fa-angle-down icon ${open ? 'rotate' : ''}`}/>
       <button>{title}</button>
       {open && <div>{children}</div>}
     </div>

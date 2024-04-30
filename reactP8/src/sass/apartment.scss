@@ -28,10 +28,13 @@
     }
   }
   .tags {
-    width: 50%;
-    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
     ul {
       display: flex;
+      width: 100%;
       gap: 15px;
       padding: 0;
       margin: 0;
@@ -39,13 +42,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 25%;
+        width: 14%;
         height: 30px;
         font-size: 14px;
         font-weight: 700;
         color: white;
         background: #ff6060;
         border-radius: 10px;
+      }
+    }
+    .starRating {
+      div {
+        display: flex;
+        gap: 5px;
+        font-size: 24px;
       }
     }
   }
@@ -81,12 +91,12 @@
       position: relative;
       div {
         padding: 20px;
-        background: #F6F6F673;
+        background: #f6f6f673;
       }
       ul {
         padding: 0;
-         margin: 0;
-         list-style-type: none;
+        margin: 0;
+        list-style-type: none;
       }
       button {
         display: flex;
@@ -108,5 +118,41 @@
 .close {
   display: none;
   height: 0;
-  
+}
+
+.slideShow {
+  position: relative;
+  svg {
+    font-size: 100px;
+    color: white;
+  }
+  .carousel div.active {
+    display: block;
+  }
+  .carousel-info {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .buttonPrev {
+    left: 0px;
+    padding-left: 20px;
+  }
+  .buttonNext {
+    right: 0px;
+    padding-right: 20px;
+  }
 }

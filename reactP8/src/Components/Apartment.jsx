@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import apartment from "../data/fichier.json";
+import Carousel from "./Slidshow";
 import Tags from "./tags";
 import Collaps from "./Collaps";
+import StarRating from "./StarRating";
 
 
 const findApartmentID = (id) => {
@@ -15,10 +17,15 @@ const Apartment = () => {
   const tags = apartmentData.tags;
   const description = apartmentData.description;
   const equipements = apartmentData.equipements;
+  const note = apartmentData.note;
   return (
     <div className="fiche_logement">
       <div className="carrousel">
-        <img src={apartmentData.cover} alt={apartmentData.title} />
+        <Carousel>
+      {apartmentData.photos.map((image, index) => (
+            <img key={index} src={image} alt={`Slide ${index}`} />
+          ))}
+        </Carousel>
       </div>
       <div className="title">
         <div>
@@ -39,11 +46,14 @@ const Apartment = () => {
             </li>
           ))}
         </ul>
+        <div className="starRating">
+        <StarRating totalStars={5} selectedStars={parseInt(apartmentData.note)} />
+        </div>
       </Tags>
      
       <div className="title">
-        <Collaps title={"Description"}>{description}</Collaps>
-        <Collaps title={"Equipement"}>
+        <Collaps title="Description">{description}</Collaps>
+        <Collaps title="Equipement">
           <ul>
             {equipements.map((equipement, index) => (
               <li key={"equipement" + index} className="equipement">
