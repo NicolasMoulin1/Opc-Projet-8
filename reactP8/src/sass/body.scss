@@ -1,5 +1,8 @@
 html {
   font-family: "Montserrat", sans-serif;
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
   body {
     margin: 0;
     #root {

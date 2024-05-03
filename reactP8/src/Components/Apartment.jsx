@@ -44,8 +44,9 @@ const Apartment = () => {
           ))}
         </Carousel>
       </div>
-      <div className="title">
-        <div>
+     
+      <div className="info">
+        <div className="title">
           <h1>{apartmentData.title}</h1>
           <p>{apartmentData.location}</p>
         </div>
@@ -54,6 +55,7 @@ const Apartment = () => {
           <p>{apartmentData.hôte.name}</p>
         </div>
       </div>
+     
 
       <Tags title={""}>
         <ul>
@@ -71,7 +73,7 @@ const Apartment = () => {
         </div>
       </Tags>
 
-      <div className="title">
+      <div className="detail">
         <Collaps title="Description">{description}</Collaps>
         <Collaps title="Equipement">
           <ul>
