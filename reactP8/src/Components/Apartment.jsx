@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import apartment from "../data/fichier.json";
 import Carousel from "./Slidshow";
 import Tags from "./tags";
 import Collaps from "./Collaps";
 import StarRating from "./StarRating";
-
 
 const findApartmentID = (id) => {
   return apartment.find((apartment) => apartment.id === id);
@@ -14,15 +13,33 @@ const findApartmentID = (id) => {
 const Apartment = () => {
   const { id } = useParams();
   const apartmentData = findApartmentID(id);
-  const tags = apartmentData.tags;
-  const description = apartmentData.description;
-  const equipements = apartmentData.equipements;
-  const note = apartmentData.note;
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (!apartmentData) {
+      navigate("/error");
+    }
+  }, [apartmentData, navigate]);
+
+  if (!apartmentData) {
+    return null;
+  }
+
+  const {
+    tags,
+    description,
+    equipements,
+    note,
+    photos,
+    title,
+    location,
+    hôte,
+  } = apartmentData;
+
   return (
     <div className="fiche_logement">
       <div className="carrousel">
         <Carousel>
-      {apartmentData.photos.map((image, index) => (
+          {apartmentData.photos.map((image, index) => (
             <img key={index} src={image} alt={`Slide ${index}`} />
           ))}
         </Carousel>
@@ -47,10 +64,13 @@ const Apartment = () => {
           ))}
         </ul>
         <div className="starRating">
-        <StarRating totalStars={5} selectedStars={parseInt(apartmentData.note)} />
+          <StarRating
+            totalStars={5}
+            selectedStars={parseInt(apartmentData.note)}
+          />
         </div>
       </Tags>
-     
+
       <div className="title">
         <Collaps title="Description">{description}</Collaps>
         <Collaps title="Equipement">
