@@ -8,11 +8,18 @@
         font-size: 288px;
         color:#ff6060;
         margin: 0;
+        @media (max-width: 768px) {
+            font-size: 96px;
+        }
     }
     p {
         font-size: 36px;
         color: #ff6060;
         margin: 0;
+        text-align: center;
+        @media (max-width:768px) {
+            font-size: 18px;
+        }
     }
     a {
         font-size: 18px;
