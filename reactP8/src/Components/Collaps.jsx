@@ -10,7 +10,11 @@ const Collaps = ({ title, children }) => {
   return (
     <div className="collaps">
       <div className={title}>
-        <FontAwesomeIcon icon={faAngleDown} onClick={toggleOpen} className={`svg-inline--fa fa-angle-down icon ${ open ? "rotate" : "" }`} />
+        <FontAwesomeIcon 
+          icon={faAngleDown} 
+          onClick={toggleOpen} 
+          className={`svg-fa-angle-down
+          ${ open ? "rotate" : "" }`} />
         <button>{title}</button>
         {open && <div>{children}</div>}
       </div>
