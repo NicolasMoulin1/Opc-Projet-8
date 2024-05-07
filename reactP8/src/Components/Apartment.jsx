@@ -44,7 +44,7 @@ const Apartment = () => {
           ))}
         </Carousel>
       </div>
-     
+
       <div className="info">
         <div className="title">
           <h1>{apartmentData.title}</h1>
@@ -55,7 +55,6 @@ const Apartment = () => {
           <p>{apartmentData.hôte.name}</p>
         </div>
       </div>
-     
 
       <Tags title={""}>
         <ul>

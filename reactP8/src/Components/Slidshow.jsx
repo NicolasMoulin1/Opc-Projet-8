@@ -31,7 +31,6 @@ const Carousel = ({ children }) => {
           <div
             style={{
               display: index === currentIndex ? "block" : "none",
-              width: "100%",
             }}
           >
             {React.cloneElement(child)}
