@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     open: true,  // Ouvre automatiquement le navigateur
     port: 5173,  // Le port sur lequel le serveur Vite sera accessible
-  }
+  },
 })
 
 
